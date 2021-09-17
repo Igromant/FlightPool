@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Montserrat-B";
+    src: url(../font/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-R";
+    src: url(../font/Montserrat-Regular.ttf);
+}@font-face {
+    font-family: "OSC-B";
+    src: url(../font/OpenSansCondensed-Bold.ttf);
+}@font-face {
+    font-family: "OSC-R";
+    src: url(../font/OpenSansCondensed-Light.ttf);
+}
+html{
+    font-family: "Montserrat-R";
+    font-size: 18px;
+}
+h1{
+    font-family: "OSC-B";
+}
+.button,input{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.container{
+    max-width: 1420px;
+    width: 100%;
+    margin: auto;
+}
+.header{
+    background-color: snow;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid rgb(255, 196, 0);
+}
+.title{
+    font-size: 40px;
+    line-height: 120%;
+
+}
+.bl__ar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bl__col{
+    display: flex;
+    flex-direction: column;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo__img{
+    max-width: 210px;
+    width: 100%;
+    border: 5px solid gold;
+    border-radius: 50%;
+    background-color: rgba(70, 131, 180, 0.55);
+}
+.navigation{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 120%;
+}
+.link:hover{
+    color: gold;
+    transition: 0.5s;
+}
+
+
+.hero{
+    background: linear-gradient(to top , rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../img/aircrafts/images.jpeg) no-repeat center / cover;
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+.bl__hero{
+    padding-top: 30px;
+    padding-left: 20px;
+    max-width: 700px;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding-bottom: 30px;
+}
+.title__hero{
+    font-size: 65px;
+    line-height: 180%;
+    color: gold;
+}
+.hero__desc{
+    color: #fff;
+    line-height: 130%;
+}
+
+
+.login{
+    margin: 100px 10px;
+}
+.bl__log{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    max-width: 360px;
+    width: 100%;
+    background-color: snow;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #000;
+    margin-top: 100px;
+    position: relative;
+}
+.button--primary{
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px 40px;
+    background-color:gold;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px gold;
+    
+}
+.button--primary:hover{
+    box-shadow: none;
+    transition: 0.5s;
+}
+.bl__al{
+    align-items: center;
+}
+.text__log{
+    margin-bottom: 20px;
+    font-family: "Montserrat-B";
+}
+.log__inp{
+    max-width: 255px;
+    padding: 10px 0px;
+    width: 100%;
+    box-shadow: 0px 0px 2px #000;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
+
+.reg{
+    background: linear-gradient(to top , rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../img/197152c818f021a2f4db244ec5328487.jpg) no-repeat center / cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+}
+.bl__reg{
+    position: relative;
+}
+.bl__reg::before{
+    content: '';
+    position: absolute;
+    background: url(../img/airline-staff-never-fat-British-Airways-711420.jpg) no-repeat center;
+    width: 600px;
+    height: 400px;
+    margin-left: 600px;
+    border: 10px solid gold;
+    border-radius: 50px;
+}
+.reg__title{
+    color:gold;
+    background-color: rgba(0, 0, 0, 0.612);
+    max-width: 450px;
+    padding: 20px;
+    margin-left: 120px;
+    border-radius: 100px;
+    margin-bottom: 100px;
+}
+.inp__reg{
+    max-width: 455px;
+    padding: 10px 0px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.bl__seats{
+    font-size: 25px;
+    line-height: 120%;
+    background-color: #fff;
+    max-width: 400px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+
+
+
+.feedback{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    box-shadow: 0px 0px 10px #000;
+    background-color: teal;
+}
+.title__feedback{
+    color:gold;
+    background-color: rgba(0, 0, 0, 0.612);
+    max-width: 360px;
+    padding: 20px 0;
+    padding-left: 30px;
+    margin-left: 120px;
+    border-radius: 100px;
+    margin-bottom: 100px;
+}
+.form{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    max-width: 550px;
+    width: 100%;
+    background-color: snow;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px #000;
+}
+.hadeline{
+    font-size: 30px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+.text__desc{
+    line-height: 140%;
+}
+.story{
+    max-width: 500px;
+    width: 100%;
+    border: 15px solid aqua;
+    border-radius: 30px;
+    box-shadow: -10px 10px 20px #000;
+}
+.comments{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.comments:last-child{
+    margin-bottom: 0;
+}
+.footer{
+    background-color: rgb(41, 23, 0);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.foot__link{
+    color: white;
+}
